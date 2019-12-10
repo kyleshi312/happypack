@@ -1,0 +1,29 @@
+{
+  "name": "happytopack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleshi312/happypack.git"
+  },
+  "author": "kyleshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyleshi312/happypack/issues"
+  },
+  "homepage": "https://github.com/kyleshi312/happypack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "commitizen": "^4.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
