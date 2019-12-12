@@ -1,11 +1,10 @@
 import Vue from 'vue'
-var obj = {
-    foo: 'bar'
-}
-
-Object.freeze(obj)
+import say from './utils'
 
 new Vue({
     el: '#app',
-    data: obj
+    data: {
+        foo: 'bar test'
+    }
 })
+
