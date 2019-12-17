@@ -1,3 +1,6 @@
-export default function say(){
-    console.log('hello world ');
+const getData = function () {
+    return new Promise((resolve, reject) => {
+        resolve('ok');
+    })
 }
+export default  getData
