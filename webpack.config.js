@@ -60,14 +60,12 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
-                exclude: /node_modules/  
+                exclude: '/node_modules/',
+                include: '/src'
             },
             {
                 test: /\.(png|jpg|gif)$/,
-                loader: 'url-loader',
-                options:{
-                    publicPath:'/'
-                }
+                loader: 'file-loader'
             }
         ]
     },
